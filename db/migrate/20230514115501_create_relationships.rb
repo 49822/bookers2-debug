@@ -3,8 +3,7 @@ class CreateRelationships < ActiveRecord::Migration[6.1]
     create_table :relationships do |t|
       t.string :follower_id
       t.string :integer
-      t.string :followed_id
-      t.string :integer
+
 
       t.timestamps
     end
